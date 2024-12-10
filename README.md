@@ -1,8 +1,32 @@
+
 # Desafio de programação para vaga de desenvolvedor front end
+
 
 O intuito deste teste é avaliar seus conhecimentos técnicos e boas práticas em código. O teste consiste em criar uma página simples com consumo de API.
 
 Siga os requisitos obrigatórios, mas não se atenha somente a eles. Use sua criatividade!
+
+## Instruções de instalação e execução
+
+1. **Clone este repositório**
+   ```bash
+   git clone https://github.com/meyreanusia/desafio-dev-frontend.git
+
+2. **Acesse o diretório do projeto**
+   ```bash
+   cd desafio-dev-frontend/previsao-do-tempo
+
+3. **Acesse o diretório do projeto**
+   ```bash
+   npm install
+
+
+4. **Acesse o diretório do projeto**
+   ```bash
+   npm start
+
+
+5. Acesse a aplicação Abra o navegador e acesse o endereço: http://localhost:3000
 
 # Descrição do projeto
 
