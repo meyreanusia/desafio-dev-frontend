@@ -1,6 +1,7 @@
 
 # Desafio de programação para vaga de desenvolvedor front end
 
+- Projeto publicano no Vercel: https://desafio-dev-frontend-xxqc.vercel.app/
 
 O intuito deste teste é avaliar seus conhecimentos técnicos e boas práticas em código. O teste consiste em criar uma página simples com consumo de API.
 
