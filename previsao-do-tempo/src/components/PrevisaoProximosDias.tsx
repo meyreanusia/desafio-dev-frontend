@@ -4,8 +4,9 @@ import { Box, Typography } from "@mui/material";
 import { PrevisaoProximosDiasProps } from "../interface";
 
 const PrevisaoProximosDias: React.FC<PrevisaoProximosDiasProps> = ({
-  previsaoCincoDias,
+  previsaoCincoDias = [],
 }) => {
+
   return (
     <Box
       sx={{
@@ -27,8 +28,8 @@ const PrevisaoProximosDias: React.FC<PrevisaoProximosDiasProps> = ({
         },
       }}
     >
-      {previsaoCincoDias ? (
-        previsaoCincoDias.map((previsao, index) => (
+      {(previsaoCincoDias || []).length > 0 ? (
+        previsaoCincoDias?.map((previsao, index) => (
           <Paper
             key={index}
             elevation={3}

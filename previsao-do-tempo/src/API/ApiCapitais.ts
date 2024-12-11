@@ -27,7 +27,6 @@ const buscarClimaVariasCidades = async (cidades: string[]): Promise<Clima[]> => 
         }
       })
     );
-    console.log(respostas);
     return respostas.filter((res) => res !== null) as Clima[];
   } catch (error) {
     console.error("Erro geral ao buscar climas:", error);

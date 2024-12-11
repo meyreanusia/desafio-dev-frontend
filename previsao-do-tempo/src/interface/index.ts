@@ -1,12 +1,12 @@
 export interface Clima {
-    temperatura: number,
-    humidade: number,
-    cidade: string,
-    condicaoClimatica: string,
-    vento: number,
-    icone: string,
-    tempMin: number,
-    tempMax: number
+    temperatura?: number,
+    humidade?: number,
+    cidade?: string,
+    condicaoClimatica?: string,
+    vento?: number,
+    icone?: string,
+    tempMin?: number,
+    tempMax?: number
 }
 export interface PrevisaoCincoDias {
     dia: string,
